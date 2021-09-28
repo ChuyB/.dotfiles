@@ -1,0 +1,10 @@
+#!/usr/bin/env zsh
+
+pushd $DOTFILES
+for directory in $(echo $STOW_FOLDERS | sed 's/,/ /g')
+do
+  echo Stowing $directory
+  stow --restow $directory
+  echo 'Done!'
+done
+popd
