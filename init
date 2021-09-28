@@ -1,4 +1,5 @@
 #!/usr/bin/env zsh
+#Don't forget to use "chmod +x ./startup.s"
 
 echo 'Initializing Dotfiles...'
 if [[ -z $STOW_FOLDERS ]]; then
