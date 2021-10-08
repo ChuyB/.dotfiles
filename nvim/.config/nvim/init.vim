@@ -1,16 +1,27 @@
 call plug#begin()
 
+"NerdTree and Telescope *Finders*
 Plug 'preservim/nerdtree'
-Plug 'sonph/onehalf', { 'rtp': 'vim' }
-Plug 'sheerun/vim-polyglot'
-Plug 'itchyny/lightline.vim'
-Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+
+"Themes
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
+
+"Syntax Highlight
+Plug 'sheerun/vim-polyglot'
+
+"Status Bar
+Plug 'itchyny/lightline.vim'
+
+"Formatter, indtenting line and autopairs
+Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 Plug 'windwp/nvim-autopairs'
 Plug 'alvan/vim-closetag'
-Plug 'mattn/emmet-vim'
 Plug 'Yggdroot/indentLine'
+
+"Completition and Emmet
+Plug 'mattn/emmet-vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
