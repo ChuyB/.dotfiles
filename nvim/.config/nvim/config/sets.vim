@@ -19,6 +19,6 @@ if exists('+termguicolors')
   set termguicolors
 endif
 colorscheme onehalfdark
-hi Normal guibg=NONE ctermbg=NONE
+"hi Normal guibg=NONE ctermbg=NONE
 let g:lightline = { 'colorscheme': 'onehalfdark' }
 
